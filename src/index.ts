@@ -7,8 +7,6 @@ import {errorHandler} from './middleware';
 // app
 const app = express();
 const PORT = process.env.APP_PORT;
-const x = null;
-console.log(undefined == null);
 
 // settings
 app.set('title', 'shopkart-api');
