@@ -18,6 +18,10 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "no-console": "off",
+    "eqeqeq": "warn",
+    "no-unused-vars": "warn",
+    //"consistent-return": "warn",
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
