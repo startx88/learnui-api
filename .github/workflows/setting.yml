@@ -7,3 +7,6 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
       - run: echo 'hi'
+      - name: checkout branch
+        uses: actions/checkout@v2
+        run: ls
