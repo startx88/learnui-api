@@ -1,0 +1,14 @@
+name: Learn Ui workflow
+
+on: [pull_request]
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo 'Hello workflow'
+      - name: checkout branch
+        uses: actions/checkout@v2
+      - name: print directory
+        run: ls
