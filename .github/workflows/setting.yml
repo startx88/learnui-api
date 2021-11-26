@@ -1,0 +1,9 @@
+name: Learn Ui workflow
+
+on: [pull_request]
+
+jobs:
+  first:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - run: echo 'hi'
